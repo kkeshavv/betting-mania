@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+background-color: #eee;
+color: #444;
+cursor: pointer;
+padding: 18px;
+width: 100%;
+border: none;
+text-align: left;
+outline: none;
+font-size: 15px;
+transition: 0.4s;
+}
+
+.active, .accordion:hover {
+background-color: #ccc; 
+}
+
+
+.accordion:after {
+  content: '˅';
+  color: rgba(32, 28, 28, 0.767);
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.panel {
+padding: 0 18px;
+display: none;
+background-color: white;
+overflow: hidden;
+}
+
+</style>
+</head>
+<body>
+  <p style="background-image: url('C:\Users\91620\Pictures\just me\just me\4.jpg');"></p>
+<H1><b><center>FAQS</center></b></H1>
+
+
+<button class="accordion">what is online betting system?</button>
+<div class="panel">
+<p>The online betting system is designed to provide a one systematic system for online gamblers
+    to offer sports betting events. The
+    participants see the posted game and can place bet on the game.To take bet on a match participants must have an account. When he placed bet the bet amount
+    will be deducted from his account.</p>
+</div>
+
+<button class="accordion">Is online betting legal in India?</button>
+<div class="panel">
+<p>Yes, online betting is legal in India.<br>
+    There are no federal laws against online betting in India.</p>
+</div>
+
+<button class="accordion">which games does betting mania offers?</button>
+<div class="panel">
+<p>
+    <li>CRICKET</li>
+    <li>FOOTBALL</li>
+    <li>BGMI</li>
+</p>
+</div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+acc[i].addEventListener("click", function() {
+this.classList.toggle("active");
+var panel = this.nextElementSibling;
+if (panel.style.display === "block") {
+  panel.style.display = "none";
+} else {
+  panel.style.display = "block";
+}
+});
+}
+</script>
+
+</body>
+</html>

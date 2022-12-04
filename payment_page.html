@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment page</title>
+    <link rel="stylesheet" type="text/css" href="payment_page.css">
+
+</head>
+
+<body>
+    <div class="layout">
+        <div class=" Body">
+
+            <div class="content">
+                <span>
+                    <b>PERSONAL DETAILS</b><br>
+                    ________________________________________________
+                </span>
+                <br>
+                <div class=" name">
+                    <span>
+                        <label for="first">First Name:</label><br>
+                        <input type="text" id="first" name="first" placeholder="First Name">
+                    </span>
+                    <span>
+                        <label for="last">Last Name:</label><br>
+                        <input type="text" id="last" name="last" placeholder="Last Name">
+                    </span>
+
+                </div>
+                <br>
+                <span>
+                    <label for="email">Email adress:</label><br>
+                    <input type="email" id="email" name="email" placeholder="xyz@gmail.com">
+                </span>
+                <br>
+                <br>
+                <span>
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="Password" name="Password" placeholder="">
+                </span>
+                <br>
+                <br>
+                <span><b>PAYMENT METHOD</b><br>
+                    _________________________________________________
+                </span>
+            
+            <br>
+            <b>WALLET PAYMENT</b>
+            <div class="wallet">
+
+                <input type="radio" id="PhonePe" name="payment" value="PhonePe">
+                <label for="PhonePe">PhonePe</label><br>
+                <input type="radio" id="Google Pay" name="payment" value="Google Pay">
+                <label for="Google Pay">Google Pay</label><br>
+                <input type="radio" id="BHIM" name="payment" value="BHIM">
+                <label for="BHIM">BHIM</label><br>
+                <input type="radio" id="PayPal" name="payment" value="PayPal">
+                <label for="PayPal">PayPal</label><br>
+            </div>
+
+            <h5>PAYMENT WITH CARDS</h5>
+            <div class="debit">
+
+                <h5> <input type="radio" id="debit card / credit card" name="payment" value="debit card / credit card">
+                    <label for="debit card / credit card">debit card / credit card</label>
+                </h5>
+                you are now choosing card payment option.
+                please fill the details of your card
+
+
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class=" top_right">
+            <b>CARD DETAILS</b>
+            <p>
+                <label for="name on card">Name on card:</label><br>
+                <input type="text" id="name on card" name="name on card" placeholder="name on card">
+            </p>
+            <p>
+                <label for="Card number">Card number:</label><br>
+                <input type="password" id="Card number" name="Card number" placeholder="Your card number">
+            </p>
+            <p>
+                <label for="valid through">valid through(MM/YY)</label><br>
+                <input type="number" id="valid through" name="valid through" placeholder="MM/YY">
+            </p>
+            <p>
+                <label for="CVV">CVV</label><br>
+                <input type="password" ; id="CVV" name="CVV" placeholder="cvv(3 digit)">
+            </p>
+            <P>
+                DO YOU HAVE A PROMO CODE?
+                <label for="promocode"></label><br>
+                <input type="promocode" id="text" name="Password" placeholder="APPLY PROCODE">&emsp; <input
+                    type="submit" style="background-color:aqua ;" value="APPLY">
+
+            </P>
+            <br>
+            <p>&emsp;&emsp;&ensp;<input type="submit" style="background-color:aqua ;" value="CHECKOUT"></p>
+</div>
+        </div>
+    </div>
+    </div>
+   
+</body>
+
+</html>

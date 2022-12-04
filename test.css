@@ -1,0 +1,6 @@
+.reviews{
+    display: flex;
+    flex-direction: column;
+    /* position: center; */
+    margin-left: 0px;
+}

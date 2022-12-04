@@ -1,0 +1,59 @@
+
+.name{
+    display: flex;
+            flex-direction:row;
+            column-gap: 35px;
+
+            
+}
+
+.wallet{
+    display: flex;
+            flex-direction:row;
+            column-gap: 5px;
+
+}
+.top_right{
+    position:absolute;
+    top:210px;
+    /* right: 300px; */
+    margin-left: 600px;
+ }
+.debit{
+    /* background-color: lightgrey; */
+  width: 350px;
+  /* border: 15px solid green; */
+  /* padding: 1px; */
+  /* margin: 20px; */
+} 
+.Body{
+    /* background-color: rgb(231, 134, 134); */
+    /* background-color: lightgrey; */
+  width: 250px;
+  /* border: 5px solid green; */
+  padding: 1px;
+  margin: 20px;
+}
+.layout{
+  /* position: absolute; */
+  /* left: 20px; */
+  margin-left: 250px;
+  margin-top: 120px;
+  /* width:350px; */
+  /* background-color: rgb(203, 239, 125); */
+  /* border: 5px solid red; */
+}
+.content{
+  
+    /*background-color: whitesmoke;*/
+    width: 750px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 25px;
+  }
+/* body{ */
+  /* background-color: rgb(249, 245, 220); */
+/* }   */
+
+

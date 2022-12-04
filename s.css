@@ -1,0 +1,518 @@
+* {
+    margin: 0px;
+    /* background-image: url(1testposter.jpeg); */
+}
+
+.ImpSearch {
+
+    /* width: 400px; */
+    /* margin: auto; */
+    /* margin-top: 250px; */
+    display: flex;
+    /* position: absolute; */
+    top: 20px;
+    /* left: 25%; */
+    background-size: cover;
+    background-color: bisque;
+    height: 90px;
+
+
+}
+
+
+
+
+
+.namee {
+    display: flex;
+    /* background-color: aquamarine; */
+    margin-right: 70px;
+    /* position: absolute; */
+    top: 30px;
+}
+
+#logoo {
+    margin-right: 40px;
+    height: 100px;
+    margin-left: 5px;
+}
+
+#logoo img {
+    height: 90px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: bisque;
+}
+
+
+.namelo-n {
+    text-transform: capitalize;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin-top: 25px;
+
+}
+
+#betting {
+    text-decoration: overline;
+    color: darkblue;
+}
+
+#maina {
+    margin-left: 20px;
+    color: rgb(61, 59, 59);
+    text-decoration: underline;
+    font-size: 55px;
+    color: blue;
+
+}
+
+
+
+
+
+.search {
+    width: 350px;
+    background-color: white;
+    margin-top: 25px;
+    height: 30px;
+    margin-right: 20px;
+    margin-left: 0ch;
+    border-radius: 5px;
+    /* text-align: center; */
+}
+
+.search:hover {
+    /* background-color: aqua; */
+    font-size: 13px;
+border-color:solid black ;
+border-width: 3px;
+    color: solid black;
+    /* text-align: center; */
+}
+
+/* .Log{
+margin-left: 20px;
+width: 140px;
+background-color: rgb(17, 17, 46);
+border-radius: 10px;
+color: ivory;
+height: 20px;
+boo
+}
+.Log:hover{
+margin-left: 20px;
+width: 140px;
+background-color: rgb(0, 139, 25);
+border-radius: 10px;
+} */
+.submit {
+    background-color: rgb(0, 0, 0);
+    color: rgb(172, 208, 239);
+    margin-right: 0;
+    height: 30px;
+    cursor: pointer;
+    font-size: medium;
+    margin-top: 30px;
+    border-radius: 3px;
+
+}
+
+.submit:hover {
+    background-color: rgb(44, 45, 45);
+    color: rgb(207, 185, 185);
+
+
+    font-size: 15px;
+
+}
+
+#login {
+    margin-left: 50px;
+
+}
+
+.Navdes {
+    /* margin-top:5px; */
+    display: flex;
+    /* margin-left: 10px; */
+    background-color: orange;
+    height: 40px;
+
+}
+
+.NEW {
+    margin-top: 5px;
+    display: flex;
+    padding-left: 900px;
+    background-color: rgb(246, 181, 61);
+    height: 35px;
+    padding-bottom: 3px;
+
+
+}
+
+
+
+
+.mdn {
+    height: 30px;
+    margin: 5px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.mdn:hover {
+    color: solid black;
+    background-color: white;
+    color: rgb(235, 41, 41);
+}
+
+
+
+
+
+
+
+
+
+
+#pls {
+    padding: 18px;
+}
+
+
+figure {
+    display: flex;
+    background-color: black;
+    border-radius: 30px;
+    background-color: rgb(83, 14, 14);
+    margin-right: 35px;
+
+
+    padding: 10px;
+    margin: 30px;
+    margin-top: 0ch;
+    margin-bottom: 5px;
+    text-align: center;
+
+
+}
+
+figcaption {
+    color: aliceblue;
+}
+
+#top {
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: inherit;
+    text-align: center;
+    text-decoration: solid;
+
+}
+
+#match {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#fig {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(84, 36, 195);
+    margin-top: 0;
+    justify-content: space-around;
+}
+
+.t220 {
+    width: 800px;
+    height: 150px;
+    margin-left: 20%;
+}
+
+.t220:hover {
+    border: 4px solid rgb(11, 11, 249);
+}
+
+
+
+
+
+
+
+
+
+
+.vk {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.box {
+    width: 450px;
+    height: 100px;
+    border: 1px solid black;
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 70px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    padding-left: 15px;
+}
+
+.box:hover {
+    border: 3px solid black;
+    background-color: cornsilk;
+
+
+
+}
+
+.jion {
+    height: 30px;
+    font-size: medium;
+    margin-left: 70px;
+    margin-top: 40px;
+    cursor: pointer;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.jion:hover {
+    background-color: white;
+    color: black;
+}
+
+.cute-g {
+    display: flex;
+
+}
+
+.bulb {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.vsssss {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    margin-top: 30px;
+
+}
+
+.bulb-h {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    margin-left: 19px;
+}
+
+.boo {
+    width: 750px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    margin-left: 225px;
+    /* margin-right: ; */
+    margin-top: 25px;
+    margin-bottom: 35px;
+    padding-left: 15px;
+    background-color: rgb(8, 6, 5);
+    border: 3px solid rgb(239, 12, 12);
+    border-radius: 5px;
+
+}
+
+.boo:hover {
+    border: 3px solid rgb(156, 50, 50);
+    /* background-color: rgb(215, 213, 204); */
+
+
+
+
+
+}
+header{
+    background-color: rgb(184, 12, 12);
+    padding: 10px;
+}
+
+
+.diwalioffer{
+    display: flex;
+    justify-content: center;
+    border: 2px  solid black;
+    background-color: black;
+}
+.winners{
+    font-size: x-large;
+    text-transform: uppercase;
+    color:white;
+}
+
+/* .OFFERS{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+} */
+.jionnn {
+    height: 30px;
+    font-size: medium;
+    /* margin-left: 70px; */
+    margin-top: 40px;
+    cursor: pointer;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-right: 10px;
+}
+
+.ji {
+    height: 30px;
+    font-size: medium;
+    margin-left: 7px;
+    margin-top: 40px;
+    cursor: pointer;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    /* margin-right: 100px; */
+    background-color: darkblue;
+    border-color: aliceblue;
+
+
+}
+
+.ji:hover {
+    background-color: rgb(85, 48, 179);
+}
+
+.flright {
+    margin-right: 30px;
+    display: flex;
+    /* margin-left: 30px; */
+    position: relative;
+
+}
+
+.OFFERS {
+    display: flex;
+    /* margin-top: 40px; */
+    margin-right: 20px;
+
+}
+
+.playit {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.playit:hover {
+    color: rgb(215, 238, 44);
+    text-decoration: none;
+}
+
+.price {
+    margin-left: 350px;
+    display: flex;
+    margin-right: 10px;
+
+
+}
+
+.winners {
+    margin-top: 35px;
+    position: absolute;
+    margin-left: 30px;
+    margin-right: 200px;
+       
+}
+
+
+footer{
+    margin: 0px;
+}
+.macbook{
+    background-color: black;
+}
+
+
+
+#plsss {
+    text-align: center;
+    margin: 0px;
+    background-color: black;
+
+}
+
+#plse{
+    border: 5px solid black;
+    background-color: black;
+
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+.hardin{
+    list-style: none;
+    
+
+}
+.hardin li{
+    margin-bottom: 20px;
+    margin-top: 2px;
+    padding: 20px;
+    border: 2px;
+    border-radius: 3%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-color: brown; */
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.hardin li:hover{
+    text-decoration: underline;
+    font-size: larger;
+
+}
+
+
+.lastrow div{
+    margin-bottom: 20px;
+    margin-top: 2px;
+    padding: 20px;
+    border: 2px;
+    border-radius: 3%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-color: brown; */
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+.lastrow div:hover{
+    text-decoration: underline;
+    font-size: larger;
+
+}
+
+#keshankit{
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    margin-top: 100px;
+}
+
+#keshankit:hover{
+    text-decoration:underline ;
+    color: RED;
+}

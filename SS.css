@@ -1,0 +1,383 @@
+* {
+    margin: 0px;
+    /* background-image: url(1testposter.jpeg); */
+}
+
+.ImpSearch {
+
+    /* width: 400px; */
+    /* margin: auto; */
+    /* margin-top: 250px; */
+    display: flex;
+    /* position: absolute; */
+    top: 20px;
+    /* left: 25%; */
+    background-size: cover;
+    background-color: rgb(199, 244, 219);
+    height: 90px;
+
+
+}
+
+
+
+
+
+.namee {
+    display: flex;
+    /* background-color: aquamarine; */
+    margin-right: 70px;
+    /* position: absolute; */
+    top: 30px;
+}
+
+#logoo {
+    margin-right: 40px;
+    height: 100px;
+    margin-left: 5px;
+}
+
+#logoo img {
+    height: 90px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(12, 232, 130);
+}
+
+
+.namelo-n {
+    text-transform: capitalize;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin-top: 25px;
+
+}
+
+#betting {
+    text-decoration: overline;
+    color: darkblue;
+}
+
+#maina {
+    margin-left: 20px;
+    color: rgb(61, 59, 59);
+    text-decoration: underline;
+    font-size: 55px;
+    color: blue;
+
+}
+
+
+
+
+
+.search {
+    width: 350px;
+    background-color: white;
+    margin-top: 25px;
+    height: 30px;
+    margin-right: 20px;
+    margin-left: 0ch;
+    border-radius: 5px;
+    /* text-align: center; */
+}
+
+.search:hover {
+    /* background-color: aqua; */
+    font-size: 13px;
+border-color:solid black ;
+border-width: 3px;
+    color: solid black;
+    /* text-align: center; */
+}
+
+/* .Log{
+margin-left: 20px;
+width: 140px;
+background-color: rgb(17, 17, 46);
+border-radius: 10px;
+color: ivory;
+height: 20px;
+
+}
+.Log:hover{
+margin-left: 20px;
+width: 140px;
+background-color: rgb(0, 139, 25);
+border-radius: 10px;
+} */
+.submit {
+    background-color: rgb(0, 0, 0);
+    color: rgb(172, 208, 239);
+    margin-right: 0;
+    height: 30px;
+    cursor: pointer;
+    font-size: medium;
+    margin-top: 30px;
+    border-radius: 3px;
+
+}
+
+.submit:hover {
+    background-color: rgb(44, 45, 45);
+    color: rgb(207, 185, 185);
+
+
+    font-size: 15px;
+
+}
+
+#login {
+    margin-left: 50px;
+
+}
+
+.Navdes {
+    /* margin-top:5px; */
+    display: flex;
+    /* margin-left: 10px; */
+    background-color: rgb(47, 211, 194);
+    height: 40px;
+
+}
+
+.NEW {
+    margin-top: 5px;
+    display: flex;
+    padding-left: 900px;
+    background-color: rgb(54, 134, 77);
+    height: 35px;
+    padding-bottom: 3px;
+
+
+}
+
+
+
+
+.mdn {
+    height: 30px;
+    margin: 5px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.mdn:hover {
+    color: solid black;
+    background-color: white;
+    color: rgb(235, 41, 41);
+}
+
+
+
+
+#pls {
+    padding: 18px;
+}
+
+
+figure {
+    display: flex;
+    background-color: black;
+    border-radius: 30px;
+    background-color: rgb(83, 14, 14);
+    margin-right: 35px;
+
+
+    padding: 10px;
+    margin: 30px;
+    margin-top: 0ch;
+    margin-bottom: 5px;
+    text-align: center;
+
+
+}
+
+figcaption {
+    color: aliceblue;
+}
+
+#top {
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: inherit;
+    text-align: center;
+    text-decoration: solid;
+
+}
+
+#match {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#fig {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(84, 36, 195);
+    margin-top: 0;
+    justify-content: space-around;
+}
+.foxs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+/* form{
+    margin: auto;
+    display: flex;
+
+} */
+.custom{
+    margin: 20px;
+}
+.listt {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+fieldset {
+    width: 500px;
+    font-size: larger;
+    height: 500px;
+
+}
+
+fieldset input {
+    margin-bottom: 20px;
+}
+
+.onetwo {
+    display: flex;
+    background-color: aqua;
+    flex-direction: row-reverse;
+    /* margin-left: 10px; */
+    margin-bottom: 10px;
+
+}
+
+.count {
+    margin-left: 10px;
+    text-decoration: underline;
+    width: 50px;
+    /* margin: auto; */
+    /* position: center; */
+}
+
+.pointer {
+    margin-left: 50px;
+    margin-right: 30px;
+    /* margin: auto; */
+    width: 30px;
+    text-align: center;
+}
+
+.playern {
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 160PX;
+    /* background-color: ; */
+}
+
+.plscheck {
+    margin: auto;
+    /* margin-top: 10px;
+    margin-right: 90px;
+    margin-right: 50px;
+    margin-left: 10px; */
+}
+.batter{
+    position: center;
+    text-align: center;
+    text-decoration: underline;
+    /* margin-left: 43%; */
+    color: black;
+     margin-bottom: 20px;
+
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+.importan{
+    text-transform: uppercase;
+    text-align: center;
+    background-color: gainsboro;
+    height: 200px;
+    margin: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 700px;
+}
+.ruless li{
+    list-style-type: none;
+    margin-top: 10px;
+    padding-left: 30px;
+    
+}
+
+
+
+.name{
+    display: flex;
+            flex-direction:row;
+            column-gap: 35px;
+
+            
+}
+
+.wallet{
+    display: flex;
+            flex-direction:row;
+            column-gap: 5px;
+
+}
+.top_right{
+    position:absolute;
+    top:210px;
+    /* right: 300px; */
+    margin-left: 600px;
+
+    margin-top: 200px;
+    
+ }
+.debit{
+    /* background-color: lightgrey; */
+  width: 350px;
+  /* border: 15px solid green; */
+  /* padding: 1px; */
+  /* margin: 20px; */
+} 
+.Body{
+    /* background-color: rgb(231, 134, 134); */
+    /* background-color: lightgrey; */
+  width: 250px;
+  /* border: 5px solid green; */
+  padding: 1px;
+  margin: 20px;
+}
+.layout{
+  /* position: absolute; */
+  /* left: 20px; */
+  margin-left: 150px;
+  margin-top: 80px;
+  /* width:350px; */
+  /* background-color: rgb(203, 239, 125); */
+  /* border: 5px solid red; */
+}
+.content{
+  
+    /*background-color: whitesmoke;*/
+    width: 750px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 25px;
+  }
+/* body{ */
+  /* background-color: rgb(249, 245, 220); */
+/* }   */
+
+
